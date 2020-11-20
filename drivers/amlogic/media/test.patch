@@ -1,0 +1,81 @@
+Only in osd/: built-in.o
+Only in osd/: .built-in.o.cmd
+Only in osd/: fb.o
+Only in osd/: .fb.o.cmd
+Only in osd/: modules.builtin
+Only in osd/: modules.order
+Only in osd/: osd_antiflicker.o
+Only in osd/: .osd_antiflicker.o.cmd
+Only in osd/: osd_backup.o
+Only in osd/: .osd_backup.o.cmd
+Only in osd/: osd_clone.o
+Only in osd/: .osd_clone.o.cmd
+diff -ru osd/osd_debug.c /home/jsyou/odroid/image/linux/drivers/amlogic/media/osd/osd_debug.c
+--- osd/osd_debug.c	2020-11-18 16:30:19.335872636 +0900
++++ /home/jsyou/odroid/image/linux/drivers/amlogic/media/osd/osd_debug.c	2020-11-17 21:12:21.238115412 +0900
+@@ -532,9 +532,8 @@
+ 	struct ge2d_context_s *context = ge2d_context;
+ 
+ #ifdef CONFIG_AMLOGIC_MEDIA_CANVAS
+-	//if (!(osd_hw.osd_meson_dev.osd_ver == OSD_SIMPLE)) {
+-	if ((!osd_hw.osd_meson_dev.osd_ver) == OSD_SIMPLE) {
+-        canvas_read(OSD1_CANVAS_INDEX, &cs);
++	if (!osd_hw.osd_meson_dev.osd_ver == OSD_SIMPLE) {
++		canvas_read(OSD1_CANVAS_INDEX, &cs);
+ 		cs_addr = cs.addr;
+ 		cs_width = cs.width;
+ 		cs_height = cs.height;
+@@ -648,9 +647,8 @@
+ 
+ static void osd_debug_auto_test(void)
+ {
+-	//if (!(osd_hw.osd_meson_dev.osd_ver == OSD_SIMPLE))
+-	if ((!osd_hw.osd_meson_dev.osd_ver) == OSD_SIMPLE)
+-        osd_test_colorbar();
++	if (!osd_hw.osd_meson_dev.osd_ver == OSD_SIMPLE)
++		osd_test_colorbar();
+ 
+ 	osd_test_dummydata();
+ 
+Only in /home/jsyou/odroid/image/linux/drivers/amlogic/media/osd/: .osd_debug.c.swp
+Only in osd/: osd_debug.o
+Only in osd/: .osd_debug.o.cmd
+Only in osd/: osd_drm.o
+Only in osd/: .osd_drm.o.cmd
+Only in osd/: .osd_drm.o.d
+Only in osd/: osd_fb.o
+Only in osd/: .osd_fb.o.cmd
+diff -ru osd/osd_hw.c /home/jsyou/odroid/image/linux/drivers/amlogic/media/osd/osd_hw.c
+--- osd/osd_hw.c	2020-11-16 03:34:03.210872644 +0900
++++ /home/jsyou/odroid/image/linux/drivers/amlogic/media/osd/osd_hw.c	2020-11-17 21:12:21.238115412 +0900
+@@ -1703,7 +1703,7 @@
+ 	if (stride_align_32bytes)
+ 		line_stride = ((line_stride+1)>>1)<<1;
+ 	else
+-		line_stride = (u32)line_stride;
++		line_stride = line_stride;
+ 	return line_stride;
+ }
+ 
+@@ -1735,7 +1735,7 @@
+ 	if (stride_align_32bytes)
+ 		line_stride = ((line_stride+1) >> 1) << 1;
+ 	else
+-		line_stride = (u32)line_stride;
++		line_stride = line_stride;
+ 	return line_stride;
+ }
+ 
+Only in osd/: osd_hw.o
+Only in osd/: .osd_hw.o.cmd
+Only in osd/: osd_io.o
+Only in osd/: .osd_io.o.cmd
+Only in osd/: osd_logo.o
+Only in osd/: .osd_logo.o.cmd
+Only in osd/: osd_rdma.o
+Only in osd/: .osd_rdma.o.cmd
+Only in osd/: .osd_rdma.o.d
+Only in osd/: osd_sw_sync.o
+Only in osd/: .osd_sw_sync.o.cmd
+Only in osd/: osd_virtual.o
+Only in osd/: .osd_virtual.o.cmd
