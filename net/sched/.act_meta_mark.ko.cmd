@@ -1,0 +1,1 @@
+cmd_net/sched/act_meta_mark.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/act_meta_mark.ko net/sched/act_meta_mark.o net/sched/act_meta_mark.mod.o ;  true

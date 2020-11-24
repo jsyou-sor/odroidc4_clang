@@ -1,0 +1,29 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/can0.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/can0.dts" 2
+/dts-v1/;
+/plugin/;
+
+
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h" 1
+# 5 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/can0.dts" 2
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h" 1
+# 6 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/can0.dts" 2
+
+/ {
+ fragment@0 {
+  target = <&spicc0>;
+
+  __overlay__ {
+   status = "okay";
+
+   can0: can@0 {
+    compatible = "microchip,mcp2515";
+    gpio-irq = <&gpio 69 1>;
+    reg = <1>;
+    spi-max-frequency = <10000000>;
+    status = "okay";
+   };
+  };
+ };
+};

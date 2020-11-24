@@ -1,0 +1,2 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/.irblaster.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidn2/irblaster.dts

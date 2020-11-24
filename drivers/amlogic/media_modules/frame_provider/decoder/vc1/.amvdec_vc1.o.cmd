@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_provider/decoder/vc1/amvdec_vc1.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/frame_provider/decoder/vc1/amvdec_vc1.o drivers/amlogic/media_modules/frame_provider/decoder/vc1/vvc1.o ; scripts/mod/modpost drivers/amlogic/media_modules/frame_provider/decoder/vc1/amvdec_vc1.o

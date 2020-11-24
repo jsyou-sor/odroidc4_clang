@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_s6d02a1.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/staging/fbtft/fb_s6d02a1.ko drivers/staging/fbtft/fb_s6d02a1.o drivers/staging/fbtft/fb_s6d02a1.mod.o ;  true

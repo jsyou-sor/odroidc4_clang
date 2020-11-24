@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfcmrvl/nfcmrvl_usb.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/nfc/nfcmrvl/nfcmrvl_usb.ko drivers/nfc/nfcmrvl/nfcmrvl_usb.o drivers/nfc/nfcmrvl/nfcmrvl_usb.mod.o ;  true

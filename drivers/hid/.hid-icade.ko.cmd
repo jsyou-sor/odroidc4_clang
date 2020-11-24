@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-icade.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-icade.ko drivers/hid/hid-icade.o drivers/hid/hid-icade.mod.o ;  true

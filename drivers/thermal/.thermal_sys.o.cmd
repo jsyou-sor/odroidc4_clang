@@ -1,0 +1,1 @@
+cmd_drivers/thermal/thermal_sys.o := aarch64-linux-gnu-ld -EL    -r -o drivers/thermal/thermal_sys.o drivers/thermal/thermal_core.o drivers/thermal/thermal_hwmon.o drivers/thermal/of-thermal.o drivers/thermal/gov_bang_bang.o drivers/thermal/user_space.o drivers/thermal/power_allocator.o ; scripts/mod/modpost drivers/thermal/thermal_sys.o

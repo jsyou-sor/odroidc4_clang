@@ -1,0 +1,1 @@
+cmd_drivers/nfc/microread/microread_i2c.o := aarch64-linux-gnu-ld -EL    -r -o drivers/nfc/microread/microread_i2c.o drivers/nfc/microread/i2c.o ; scripts/mod/modpost drivers/nfc/microread/microread_i2c.o

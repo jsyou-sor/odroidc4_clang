@@ -1,0 +1,4 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/.pwm_d-backlight.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidn2/pwm_d-backlight.dts \
+  arch/arm64/boot/dts/include/dt-bindings/pwm/meson.h \
+  arch/arm64/boot/dts/include/dt-bindings/pwm/pwm.h

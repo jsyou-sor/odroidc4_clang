@@ -1,0 +1,1 @@
+cmd_drivers/mfd/mfd-core.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/mfd/mfd-core.ko drivers/mfd/mfd-core.o drivers/mfd/mfd-core.mod.o ;  true

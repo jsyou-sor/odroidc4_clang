@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/cypress_m8.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/usb/serial/cypress_m8.ko drivers/usb/serial/cypress_m8.o drivers/usb/serial/cypress_m8.mod.o ;  true

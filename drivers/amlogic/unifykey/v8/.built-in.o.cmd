@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/unifykey/v8/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/unifykey/v8/built-in.o drivers/amlogic/unifykey/v8/securitykey.o ; scripts/mod/modpost drivers/amlogic/unifykey/v8/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/drxk.o := aarch64-linux-gnu-ld -EL    -r -o drivers/media/dvb-frontends/drxk.o drivers/media/dvb-frontends/drxk_hard.o ; scripts/mod/modpost drivers/media/dvb-frontends/drxk.o

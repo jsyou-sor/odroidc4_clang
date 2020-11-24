@@ -1,0 +1,5 @@
+kernel/drivers/amlogic/input/touchscreen/goodix_gt1x/gt1x_extents.ko
+kernel/drivers/amlogic/input/touchscreen/goodix_gt1x/gt1x_generic.ko
+kernel/drivers/amlogic/input/touchscreen/goodix_gt1x/gt1x_tools.ko
+kernel/drivers/amlogic/input/touchscreen/goodix_gt1x/gt1x.ko
+kernel/drivers/amlogic/input/touchscreen/goodix_gt1x/gt1x_update.ko

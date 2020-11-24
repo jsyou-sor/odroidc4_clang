@@ -1,0 +1,1 @@
+cmd_drivers/virtio/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/virtio/built-in.o drivers/virtio/virtio.o drivers/virtio/virtio_ring.o drivers/virtio/virtio_mmio.o ; scripts/mod/modpost drivers/virtio/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/ata/ahci.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/ata/ahci.ko drivers/ata/ahci.o drivers/ata/ahci.mod.o ;  true

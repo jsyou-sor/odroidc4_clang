@@ -1,0 +1,156 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x15fe3c83, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xb7e1135, __VMLINUX_SYMBOL_STR(register_netdevice) },
+	{ 0x1068c05d, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0x1fdc7df2, __VMLINUX_SYMBOL_STR(_mcount) },
+	{ 0xefedfbb0, __VMLINUX_SYMBOL_STR(gro_find_receive_by_type) },
+	{ 0x8c35ddde, __VMLINUX_SYMBOL_STR(mrp_uninit_applicant) },
+	{ 0x4fff8ca0, __VMLINUX_SYMBOL_STR(dev_change_flags) },
+	{ 0x2d4fc788, __VMLINUX_SYMBOL_STR(dev_mc_unsync) },
+	{ 0xe3d2ff9a, __VMLINUX_SYMBOL_STR(mrp_request_leave) },
+	{ 0xf410d6f, __VMLINUX_SYMBOL_STR(single_open) },
+	{ 0xb88b18fe, __VMLINUX_SYMBOL_STR(dev_get_flags) },
+	{ 0x60a13e90, __VMLINUX_SYMBOL_STR(rcu_barrier) },
+	{ 0x8936e279, __VMLINUX_SYMBOL_STR(dev_get_nest_level) },
+	{ 0xe7c976be, __VMLINUX_SYMBOL_STR(garp_uninit_applicant) },
+	{ 0xd5250b82, __VMLINUX_SYMBOL_STR(vlan_dev_vlan_id) },
+	{ 0xf1ca2404, __VMLINUX_SYMBOL_STR(dev_uc_add) },
+	{ 0xad687a9d, __VMLINUX_SYMBOL_STR(single_release) },
+	{ 0xaa7c1a41, __VMLINUX_SYMBOL_STR(seq_puts) },
+	{ 0x66dd56ed, __VMLINUX_SYMBOL_STR(garp_request_join) },
+	{ 0xc7a4fbed, __VMLINUX_SYMBOL_STR(rtnl_lock) },
+	{ 0xf470f5e, __VMLINUX_SYMBOL_STR(vlan_uses_dev) },
+	{ 0xd8a808c7, __VMLINUX_SYMBOL_STR(switchdev_port_bridge_setlink) },
+	{ 0x8f036cec, __VMLINUX_SYMBOL_STR(switchdev_port_fdb_dump) },
+	{ 0xc9fb6ea8, __VMLINUX_SYMBOL_STR(netif_carrier_on) },
+	{ 0x84bc974b, __VMLINUX_SYMBOL_STR(__arch_copy_from_user) },
+	{ 0xc0a3d105, __VMLINUX_SYMBOL_STR(find_next_bit) },
+	{ 0x294b7c01, __VMLINUX_SYMBOL_STR(seq_printf) },
+	{ 0xd2da1048, __VMLINUX_SYMBOL_STR(register_netdevice_notifier) },
+	{ 0xe79667c2, __VMLINUX_SYMBOL_STR(netif_carrier_off) },
+	{ 0x253a4b00, __VMLINUX_SYMBOL_STR(remove_proc_entry) },
+	{ 0x78599d7a, __VMLINUX_SYMBOL_STR(dev_set_allmulti) },
+	{ 0x8ddf1d42, __VMLINUX_SYMBOL_STR(vlan_vid_del) },
+	{ 0x31ff8625, __VMLINUX_SYMBOL_STR(call_netdevice_notifiers) },
+	{ 0x8e61ab16, __VMLINUX_SYMBOL_STR(linkwatch_fire_event) },
+	{ 0xaa787ddc, __VMLINUX_SYMBOL_STR(dev_add_offload) },
+	{ 0x5441cf1e, __VMLINUX_SYMBOL_STR(vlan_vid_add) },
+	{ 0x1b8512d3, __VMLINUX_SYMBOL_STR(__netpoll_setup) },
+	{ 0x2b5d62bc, __VMLINUX_SYMBOL_STR(switchdev_port_fdb_del) },
+	{ 0xb84b3e7f, __VMLINUX_SYMBOL_STR(garp_init_applicant) },
+	{ 0xb246d7fc, __VMLINUX_SYMBOL_STR(switchdev_port_bridge_getlink) },
+	{ 0x7bafa862, __VMLINUX_SYMBOL_STR(seq_read) },
+	{ 0xc9ec4e21, __VMLINUX_SYMBOL_STR(free_percpu) },
+	{ 0x9d0d6206, __VMLINUX_SYMBOL_STR(unregister_netdevice_notifier) },
+	{ 0xe2d5255a, __VMLINUX_SYMBOL_STR(strcmp) },
+	{ 0xe2704baa, __VMLINUX_SYMBOL_STR(proc_remove) },
+	{ 0xebdcb79f, __VMLINUX_SYMBOL_STR(vlan_ioctl_set) },
+	{ 0x98ab764, __VMLINUX_SYMBOL_STR(__pskb_pull_tail) },
+	{ 0xecea36c3, __VMLINUX_SYMBOL_STR(netpoll_send_skb_on_dev) },
+	{ 0xeead97e5, __VMLINUX_SYMBOL_STR(PDE_DATA) },
+	{ 0xfe7c4287, __VMLINUX_SYMBOL_STR(nr_cpu_ids) },
+	{ 0xdcb764ad, __VMLINUX_SYMBOL_STR(memset) },
+	{ 0x8e3f011a, __VMLINUX_SYMBOL_STR(__cpu_possible_mask) },
+	{ 0x7a156c4, __VMLINUX_SYMBOL_STR(unregister_pernet_subsys) },
+	{ 0x9fdecc31, __VMLINUX_SYMBOL_STR(unregister_netdevice_many) },
+	{ 0x68a82048, __VMLINUX_SYMBOL_STR(__ethtool_get_link_ksettings) },
+	{ 0x985558a1, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x124a959c, __VMLINUX_SYMBOL_STR(ethtool_op_get_link) },
+	{ 0xfe40fbb9, __VMLINUX_SYMBOL_STR(ns_capable) },
+	{ 0x99e6f152, __VMLINUX_SYMBOL_STR(__netpoll_free_async) },
+	{ 0xf315ed53, __VMLINUX_SYMBOL_STR(free_netdev) },
+	{ 0x9166fada, __VMLINUX_SYMBOL_STR(strncpy) },
+	{ 0x58e6413a, __VMLINUX_SYMBOL_STR(garp_register_application) },
+	{ 0xd7564359, __VMLINUX_SYMBOL_STR(nla_put) },
+	{ 0x21a3371, __VMLINUX_SYMBOL_STR(netdev_upper_dev_unlink) },
+	{ 0x5792f848, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0xe0ea4205, __VMLINUX_SYMBOL_STR(dev_remove_offload) },
+	{ 0x7cd60ecd, __VMLINUX_SYMBOL_STR(skb_push) },
+	{ 0x37eed045, __VMLINUX_SYMBOL_STR(proc_mkdir_data) },
+	{ 0x4beb3566, __VMLINUX_SYMBOL_STR(seq_release_net) },
+	{ 0x2265f751, __VMLINUX_SYMBOL_STR(netif_stacked_transfer_operstate) },
+	{ 0x2469810f, __VMLINUX_SYMBOL_STR(__rcu_read_unlock) },
+	{ 0x99cf7051, __VMLINUX_SYMBOL_STR(gro_find_complete_by_type) },
+	{ 0x43b0c9c3, __VMLINUX_SYMBOL_STR(preempt_schedule) },
+	{ 0x965e203e, __VMLINUX_SYMBOL_STR(init_net) },
+	{ 0x2e974295, __VMLINUX_SYMBOL_STR(rtnl_link_unregister) },
+	{ 0xcbd4001e, __VMLINUX_SYMBOL_STR(__dev_get_by_index) },
+	{ 0x4fd39303, __VMLINUX_SYMBOL_STR(garp_request_leave) },
+	{ 0xbd671048, __VMLINUX_SYMBOL_STR(__alloc_percpu_gfp) },
+	{ 0x347013de, __VMLINUX_SYMBOL_STR(nla_validate) },
+	{ 0xb35dea8f, __VMLINUX_SYMBOL_STR(__arch_copy_to_user) },
+	{ 0x6e3b68b9, __VMLINUX_SYMBOL_STR(eth_header_parse) },
+	{ 0x6b2dc060, __VMLINUX_SYMBOL_STR(dump_stack) },
+	{ 0xf904b6cc, __VMLINUX_SYMBOL_STR(alloc_netdev_mqs) },
+	{ 0x2989a348, __VMLINUX_SYMBOL_STR(register_pernet_subsys) },
+	{ 0x5e487ba6, __VMLINUX_SYMBOL_STR(mrp_init_applicant) },
+	{ 0x181f9a3e, __VMLINUX_SYMBOL_STR(netdev_upper_dev_link) },
+	{ 0x7cbe2ec5, __VMLINUX_SYMBOL_STR(ether_setup) },
+	{ 0x563769b9, __VMLINUX_SYMBOL_STR(dev_uc_unsync) },
+	{ 0x13c85b18, __VMLINUX_SYMBOL_STR(__dev_get_by_name) },
+	{ 0x23d48a92, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0x7a7e55ee, __VMLINUX_SYMBOL_STR(switchdev_port_fdb_add) },
+	{ 0x23685622, __VMLINUX_SYMBOL_STR(garp_unregister_application) },
+	{ 0x7ecb001b, __VMLINUX_SYMBOL_STR(__per_cpu_offset) },
+	{ 0x1b69cf76, __VMLINUX_SYMBOL_STR(unregister_netdevice_queue) },
+	{ 0xe7de671e, __VMLINUX_SYMBOL_STR(netdev_warn) },
+	{ 0x73fabbc3, __VMLINUX_SYMBOL_STR(proc_create_data) },
+	{ 0x9a02c828, __VMLINUX_SYMBOL_STR(eth_validate_addr) },
+	{ 0x6dbd491f, __VMLINUX_SYMBOL_STR(seq_lseek) },
+	{ 0x52e778b3, __VMLINUX_SYMBOL_STR(dev_set_promiscuity) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x4829a47e, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x16d0ba51, __VMLINUX_SYMBOL_STR(seq_open_net) },
+	{ 0x954e9c27, __VMLINUX_SYMBOL_STR(mrp_register_application) },
+	{ 0x49f71442, __VMLINUX_SYMBOL_STR(dev_close_many) },
+	{ 0xd2999508, __VMLINUX_SYMBOL_STR(rtnl_link_register) },
+	{ 0x487e7671, __VMLINUX_SYMBOL_STR(dev_uc_del) },
+	{ 0x795a15e, __VMLINUX_SYMBOL_STR(dev_uc_sync) },
+	{ 0x27fc2c88, __VMLINUX_SYMBOL_STR(switchdev_port_bridge_dellink) },
+	{ 0x28318305, __VMLINUX_SYMBOL_STR(snprintf) },
+	{ 0xe113bbbc, __VMLINUX_SYMBOL_STR(csum_partial) },
+	{ 0x19820f9, __VMLINUX_SYMBOL_STR(netdev_update_features) },
+	{ 0x85670f1d, __VMLINUX_SYMBOL_STR(rtnl_is_locked) },
+	{ 0x7e4cc618, __VMLINUX_SYMBOL_STR(netdev_default_l2upper_neigh_construct) },
+	{ 0xdbf936a7, __VMLINUX_SYMBOL_STR(dev_queue_xmit) },
+	{ 0x8d522714, __VMLINUX_SYMBOL_STR(__rcu_read_lock) },
+	{ 0x3337495a, __VMLINUX_SYMBOL_STR(mrp_unregister_application) },
+	{ 0x9d1f6350, __VMLINUX_SYMBOL_STR(mrp_request_join) },
+	{ 0x8e2aed2d, __VMLINUX_SYMBOL_STR(dev_mc_sync) },
+	{ 0x35fa68b5, __VMLINUX_SYMBOL_STR(netdev_default_l2upper_neigh_destroy) },
+	{ 0x6e720ff2, __VMLINUX_SYMBOL_STR(rtnl_unlock) },
+	{ 0x6e1136f4, __VMLINUX_SYMBOL_STR(dev_get_stats) },
+	{ 0x72bc4756, __VMLINUX_SYMBOL_STR(dev_set_mtu) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=mrp,garp";
+
+
+MODULE_INFO(srcversion, "53066431D49A4B6D5D3251D");

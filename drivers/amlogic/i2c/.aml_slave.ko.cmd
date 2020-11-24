@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/i2c/aml_slave.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/amlogic/i2c/aml_slave.ko drivers/amlogic/i2c/aml_slave.o drivers/amlogic/i2c/aml_slave.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/input/keyboard/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/input/keyboard/built-in.o drivers/amlogic/input/keyboard/adc_keypad.o drivers/amlogic/input/keyboard/gpio_keypad.o ; scripts/mod/modpost drivers/amlogic/input/keyboard/built-in.o

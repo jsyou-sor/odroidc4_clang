@@ -1,0 +1,1 @@
+cmd_sound/core/seq/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o sound/core/seq/built-in.o sound/core/seq/snd-seq.o sound/core/seq/snd-seq-device.o sound/core/seq/snd-seq-midi.o sound/core/seq/snd-seq-midi-event.o ; scripts/mod/modpost sound/core/seq/built-in.o

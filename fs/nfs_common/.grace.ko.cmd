@@ -1,0 +1,1 @@
+cmd_fs/nfs_common/grace.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o fs/nfs_common/grace.ko fs/nfs_common/grace.o fs/nfs_common/grace.mod.o ;  true

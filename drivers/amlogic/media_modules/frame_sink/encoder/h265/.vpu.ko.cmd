@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_sink/encoder/h265/vpu.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/amlogic/media_modules/frame_sink/encoder/h265/vpu.ko drivers/amlogic/media_modules/frame_sink/encoder/h265/vpu.o drivers/amlogic/media_modules/frame_sink/encoder/h265/vpu.mod.o ;  true

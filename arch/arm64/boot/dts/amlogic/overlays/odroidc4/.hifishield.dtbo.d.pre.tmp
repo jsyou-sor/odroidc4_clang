@@ -1,0 +1,2 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidc4/.hifishield.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidc4/hifishield.dts

@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_hx8353d.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/staging/fbtft/fb_hx8353d.ko drivers/staging/fbtft/fb_hx8353d.o drivers/staging/fbtft/fb_hx8353d.mod.o ;  true

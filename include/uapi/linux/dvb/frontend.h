@@ -213,6 +213,8 @@ enum fe_sec_voltage {
 	SEC_VOLTAGE_13,
 	SEC_VOLTAGE_18,
 	SEC_VOLTAGE_OFF,
+
+	SEC_VOLTAGE_ON	   /* for compiling... */
 #ifdef CONFIG_AMLOGIC_DVB_COMPAT
 	SEC_VOLTAGE_ON     /*for ISDBT antenna control*/
 #endif

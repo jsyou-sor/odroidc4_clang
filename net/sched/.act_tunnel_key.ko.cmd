@@ -1,0 +1,1 @@
+cmd_net/sched/act_tunnel_key.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/act_tunnel_key.ko net/sched/act_tunnel_key.o net/sched/act_tunnel_key.mod.o ;  true

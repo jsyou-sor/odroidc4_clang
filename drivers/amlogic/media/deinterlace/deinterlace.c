@@ -450,6 +450,7 @@ static unsigned int lDI_POST_REG_RD(unsigned int addr)
 }
 
 static int lDI_POST_WR_REG_BITS(u32 adr, u32 val, u32 start, u32 len)
+//static void lDI_POST_WR_REG_BITS(u32 adr, u32 val, u32 start, u32 len)
 {
 	if (IS_ERR_OR_NULL(de_devp))
 		return 0;
@@ -457,7 +458,10 @@ static int lDI_POST_WR_REG_BITS(u32 adr, u32 val, u32 start, u32 len)
 		pr_err("[DI] REG 0x%x access prohibited.\n", adr);
 		return -1;
 	}
-	return VSYNC_WR_MPEG_REG_BITS(adr, val, start, len);
+	//return VSYNC_WR_MPREG_REG_BITS(adr, val, start, len);
+	//return VSYNC_WR_MPEG_REG_BITS(adr, val, start, len);
+	VSYNC_WR_MPEG_REG_BITS(adr, val, start, len);
+	return 1;
 }
 
 static const struct di_ext_ops di_ext = {

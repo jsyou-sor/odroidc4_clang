@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/pci/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/pci/built-in.o drivers/amlogic/pci/pcie-amlogic.o drivers/amlogic/pci/pcie-amlogic-v2.o ; scripts/mod/modpost drivers/amlogic/pci/built-in.o

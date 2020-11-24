@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/input/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/input/built-in.o drivers/amlogic/input/keyboard/built-in.o drivers/amlogic/input/touchscreen/built-in.o ; scripts/mod/modpost drivers/amlogic/input/built-in.o

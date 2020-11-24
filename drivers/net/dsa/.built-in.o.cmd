@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/net/dsa/built-in.o drivers/net/dsa/b53/built-in.o drivers/net/dsa/mv88e6xxx/built-in.o ; scripts/mod/modpost drivers/net/dsa/built-in.o

@@ -1,0 +1,6 @@
+kernel/drivers/amlogic/media/vin/tvin/hdmirx/tvin_hdmirx.ko
+kernel/drivers/amlogic/media/vin/tvin/tvafe/tvin_afe.ko
+kernel/drivers/amlogic/media/vin/tvin/tvafe/tvafe_vbi.ko
+kernel/drivers/amlogic/media/vin/tvin/tvafe/tvin_avin_detect.ko
+kernel/drivers/amlogic/media/vin/tvin/vdin/tvin_vdin.ko
+kernel/drivers/amlogic/media/vin/tvin/viu/tvin_viuin.ko

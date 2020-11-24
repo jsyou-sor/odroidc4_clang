@@ -538,7 +538,8 @@ static struct ddr_port_desc ddr_port_desc_tm2[] __initdata = {
 static struct ddr_port_desc *chip_ddr_port;
 static unsigned char chip_ddr_port_num;
 
-int __init ddr_find_port_desc(int cpu_type, struct ddr_port_desc **desc)
+//int __init ddr_find_port_desc(int cpu_type, struct ddr_port_desc **desc)
+int ddr_find_port_desc(int cpu_type, struct ddr_port_desc **desc)
 {
 	int desc_size = -EINVAL;
 

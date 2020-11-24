@@ -1,0 +1,1 @@
+cmd_drivers/nfc/trf7970a.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/nfc/trf7970a.ko drivers/nfc/trf7970a.o drivers/nfc/trf7970a.mod.o ;  true

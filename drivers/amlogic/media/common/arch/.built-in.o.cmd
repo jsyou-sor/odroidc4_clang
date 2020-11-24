@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/common/arch/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/common/arch/built-in.o drivers/amlogic/media/common/arch/registers/built-in.o drivers/amlogic/media/common/arch/clk/built-in.o ; scripts/mod/modpost drivers/amlogic/media/common/arch/built-in.o

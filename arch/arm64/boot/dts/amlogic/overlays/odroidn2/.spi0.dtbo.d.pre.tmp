@@ -1,0 +1,2 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/.spi0.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidn2/spi0.dts

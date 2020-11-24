@@ -1,0 +1,1 @@
+cmd_drivers/nfc/st-nci/st-nci.o := aarch64-linux-gnu-ld -EL    -r -o drivers/nfc/st-nci/st-nci.o drivers/nfc/st-nci/ndlc.o drivers/nfc/st-nci/core.o drivers/nfc/st-nci/se.o drivers/nfc/st-nci/vendor_cmds.o ; scripts/mod/modpost drivers/nfc/st-nci/st-nci.o

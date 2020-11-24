@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/lirc/lirc_odroid.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/staging/media/lirc/lirc_odroid.ko drivers/staging/media/lirc/lirc_odroid.o drivers/staging/media/lirc/lirc_odroid.mod.o ;  true

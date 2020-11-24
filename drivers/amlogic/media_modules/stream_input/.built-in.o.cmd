@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/stream_input/built-in.o :=  rm -f drivers/amlogic/media_modules/stream_input/built-in.o; aarch64-linux-gnu-ar rcsD drivers/amlogic/media_modules/stream_input/built-in.o

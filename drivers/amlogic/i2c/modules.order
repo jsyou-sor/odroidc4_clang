@@ -1,0 +1,2 @@
+kernel/drivers/amlogic/i2c/i2c-meson-master.ko
+kernel/drivers/amlogic/i2c/aml_slave.ko

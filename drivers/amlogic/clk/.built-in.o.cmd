@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/clk/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/clk/built-in.o drivers/amlogic/clk/clk-pll.o drivers/amlogic/clk/clk-mux.o drivers/amlogic/clk/clk_measure.o drivers/amlogic/clk/clk-meson-register.o ; scripts/mod/modpost drivers/amlogic/clk/built-in.o

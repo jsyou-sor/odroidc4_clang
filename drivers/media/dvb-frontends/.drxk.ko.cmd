@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/drxk.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/dvb-frontends/drxk.ko drivers/media/dvb-frontends/drxk.o drivers/media/dvb-frontends/drxk.mod.o ;  true

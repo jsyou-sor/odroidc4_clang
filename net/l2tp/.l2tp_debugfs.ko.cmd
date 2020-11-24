@@ -1,0 +1,1 @@
+cmd_net/l2tp/l2tp_debugfs.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/l2tp/l2tp_debugfs.ko net/l2tp/l2tp_debugfs.o net/l2tp/l2tp_debugfs.mod.o ;  true

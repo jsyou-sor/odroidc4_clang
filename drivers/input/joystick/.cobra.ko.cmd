@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/cobra.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/joystick/cobra.ko drivers/input/joystick/cobra.o drivers/input/joystick/cobra.mod.o ;  true

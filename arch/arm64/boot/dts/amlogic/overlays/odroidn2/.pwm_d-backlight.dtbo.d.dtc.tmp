@@ -1,0 +1,1 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/pwm_d-backlight.dtbo: arch/arm64/boot/dts/amlogic/overlays/odroidn2/.pwm_d-backlight.dtbo.dts.tmp

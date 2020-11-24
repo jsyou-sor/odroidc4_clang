@@ -1,0 +1,23 @@
+arch/arm64/boot/dts/amlogic/.meson64_odroidn2_drm.dtb.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/meson64_odroidn2_drm.dts \
+  arch/arm64/boot/dts/amlogic/meson64_odroidn2.dts \
+  arch/arm64/boot/dts/amlogic/mesong12b_a.dtsi \
+  arch/arm64/boot/dts/include/dt-bindings/interrupt-controller/arm-gic.h \
+  arch/arm64/boot/dts/include/dt-bindings/interrupt-controller/irq.h \
+  arch/arm64/boot/dts/include/dt-bindings/clock/amlogic,g12a-clkc.h \
+  arch/arm64/boot/dts/include/dt-bindings/clock/amlogic,g12a-audio-clk.h \
+  arch/arm64/boot/dts/include/dt-bindings/iio/adc/amlogic-saradc.h \
+  arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h \
+  arch/arm64/boot/dts/include/dt-bindings/pwm/pwm.h \
+  arch/arm64/boot/dts/include/dt-bindings/pwm/meson.h \
+  arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h \
+  arch/arm64/boot/dts/include/dt-bindings/input/input.h \
+  arch/arm64/boot/dts/include/dt-bindings/input/linux-event-codes.h \
+  arch/arm64/boot/dts/include/dt-bindings/input/meson_rc.h \
+  arch/arm64/boot/dts/include/dt-bindings/phy/phy-amlogic-pcie.h \
+  arch/arm64/boot/dts/amlogic/mesong12a-bifrost.dtsi \
+  arch/arm64/boot/dts/amlogic/g12b-sched-energy-a.dtsi \
+  arch/arm64/boot/dts/amlogic/meson64_odroidn2.dtsi \
+  arch/arm64/boot/dts/amlogic/mesong12_odroid_common.dtsi \
+  arch/arm64/boot/dts/amlogic/mesong12a_drm.dtsi \
+  arch/arm64/boot/dts/include/dt-bindings/display/meson-drm-ids.h

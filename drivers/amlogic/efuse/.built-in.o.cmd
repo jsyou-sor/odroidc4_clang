@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/efuse/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/efuse/built-in.o drivers/amlogic/efuse/efuse_hw64.o drivers/amlogic/efuse/efuse64.o ; scripts/mod/modpost drivers/amlogic/efuse/built-in.o

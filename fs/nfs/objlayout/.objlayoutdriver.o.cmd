@@ -1,0 +1,1 @@
+cmd_fs/nfs/objlayout/objlayoutdriver.o := aarch64-linux-gnu-ld -EL    -r -o fs/nfs/objlayout/objlayoutdriver.o fs/nfs/objlayout/objio_osd.o fs/nfs/objlayout/pnfs_osd_xdr_cli.o fs/nfs/objlayout/objlayout.o ; scripts/mod/modpost fs/nfs/objlayout/objlayoutdriver.o

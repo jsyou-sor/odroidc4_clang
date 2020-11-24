@@ -1,0 +1,2 @@
+kernel/drivers/amlogic/media/video_processor/ionvideo/ionvideo.ko
+kernel/drivers/amlogic/media/video_processor/ionvideo/ppmgr2.ko

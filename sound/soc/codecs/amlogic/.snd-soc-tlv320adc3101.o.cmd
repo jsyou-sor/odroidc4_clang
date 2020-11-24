@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-tlv320adc3101.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-tlv320adc3101.o sound/soc/codecs/amlogic/tlv320adc3101.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-tlv320adc3101.o

@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_sink/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/frame_sink/built-in.o drivers/amlogic/media_modules/frame_sink/encoder/built-in.o ; scripts/mod/modpost drivers/amlogic/media_modules/frame_sink/built-in.o

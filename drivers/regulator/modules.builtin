@@ -1,0 +1,2 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/pwm-regulator.ko

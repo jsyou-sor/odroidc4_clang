@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-gembird.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-gembird.ko drivers/hid/hid-gembird.o drivers/hid/hid-gembird.mod.o ;  true

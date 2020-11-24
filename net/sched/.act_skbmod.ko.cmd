@@ -1,0 +1,1 @@
+cmd_net/sched/act_skbmod.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/act_skbmod.ko net/sched/act_skbmod.o net/sched/act_skbmod.mod.o ;  true

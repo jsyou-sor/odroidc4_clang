@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/warrior.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/joystick/warrior.ko drivers/input/joystick/warrior.o drivers/input/joystick/warrior.mod.o ;  true

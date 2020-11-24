@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/amvdec_ports/built-in.o :=  rm -f drivers/amlogic/media_modules/amvdec_ports/built-in.o; aarch64-linux-gnu-ar rcsD drivers/amlogic/media_modules/amvdec_ports/built-in.o

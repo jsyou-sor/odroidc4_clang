@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-pdm-dummy.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-pdm-dummy.o sound/soc/codecs/amlogic/pdm_dummy.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-pdm-dummy.o

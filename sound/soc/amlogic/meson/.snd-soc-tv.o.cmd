@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/meson/snd-soc-tv.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/meson/snd-soc-tv.o sound/soc/amlogic/meson/tv.o ; scripts/mod/modpost sound/soc/amlogic/meson/snd-soc-tv.o

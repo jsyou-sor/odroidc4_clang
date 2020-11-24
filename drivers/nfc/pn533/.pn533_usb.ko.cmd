@@ -1,0 +1,1 @@
+cmd_drivers/nfc/pn533/pn533_usb.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/nfc/pn533/pn533_usb.ko drivers/nfc/pn533/pn533_usb.o drivers/nfc/pn533/pn533_usb.mod.o ;  true

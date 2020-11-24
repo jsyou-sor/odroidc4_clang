@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/common/vfm/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/common/vfm/built-in.o drivers/amlogic/media/common/vfm/vfm.o drivers/amlogic/media/common/vfm/vframe_provider.o drivers/amlogic/media/common/vfm/vframe_receiver.o drivers/amlogic/media/common/vfm/vftrace.o ; scripts/mod/modpost drivers/amlogic/media/common/vfm/built-in.o

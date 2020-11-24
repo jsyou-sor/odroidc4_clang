@@ -291,7 +291,8 @@ static const struct platform_freeze_ops meson_m8b_frz_ops = {
 	.end = frz_end,
 };
 
-static int __init meson_pm_probe(struct platform_device *pdev)
+//static int __init meson_pm_probe(struct platform_device *pdev)
+static int meson_pm_probe(struct platform_device *pdev)
 {
 	pr_info("enter meson_pm_probe!\n");
 #ifdef CONFIG_AMLOGIC_LEGACY_EARLY_SUSPEND

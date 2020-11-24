@@ -1,0 +1,2 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/.pwm_cd.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidn2/pwm_cd.dts

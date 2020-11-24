@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-penmount.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-penmount.ko drivers/hid/hid-penmount.o drivers/hid/hid-penmount.mod.o ;  true

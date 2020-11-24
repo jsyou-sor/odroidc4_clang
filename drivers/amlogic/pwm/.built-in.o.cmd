@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/pwm/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/pwm/built-in.o drivers/amlogic/pwm/pwm_meson.o drivers/amlogic/pwm/pwm_meson_sysfs.o ; scripts/mod/modpost drivers/amlogic/pwm/built-in.o

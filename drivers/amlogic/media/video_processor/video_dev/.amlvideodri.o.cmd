@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/video_processor/video_dev/amlvideodri.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/video_processor/video_dev/amlvideodri.o drivers/amlogic/media/video_processor/video_dev/amlvideo.o ; scripts/mod/modpost drivers/amlogic/media/video_processor/video_dev/amlvideodri.o

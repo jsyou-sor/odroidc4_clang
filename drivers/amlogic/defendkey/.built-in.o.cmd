@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/defendkey/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/defendkey/built-in.o drivers/amlogic/defendkey/defendkey.o drivers/amlogic/defendkey/securekey.o ; scripts/mod/modpost drivers/amlogic/defendkey/built-in.o

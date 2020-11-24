@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/stream_input/parser/dvb_ci/ci.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/amlogic/media_modules/stream_input/parser/dvb_ci/ci.ko drivers/amlogic/media_modules/stream_input/parser/dvb_ci/ci.o drivers/amlogic/media_modules/stream_input/parser/dvb_ci/ci.mod.o ;  true

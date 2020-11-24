@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/vin/tvin/hdmirx/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/vin/tvin/hdmirx/built-in.o drivers/amlogic/media/vin/tvin/hdmirx/tvin_hdmirx.o ; scripts/mod/modpost drivers/amlogic/media/vin/tvin/hdmirx/built-in.o

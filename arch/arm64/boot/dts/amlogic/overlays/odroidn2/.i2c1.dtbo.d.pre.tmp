@@ -1,0 +1,2 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/.i2c1.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidn2/i2c1.dts

@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/meson/snd-soc-dmic.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/meson/snd-soc-dmic.o sound/soc/amlogic/meson/dmic.o ; scripts/mod/modpost sound/soc/amlogic/meson/snd-soc-dmic.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/mxl111sf-demod.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/usb/dvb-usb-v2/mxl111sf-demod.ko drivers/media/usb/dvb-usb-v2/mxl111sf-demod.o drivers/media/usb/dvb-usb-v2/mxl111sf-demod.mod.o ;  true

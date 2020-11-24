@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ir-sony-decoder.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/rc/ir-sony-decoder.ko drivers/media/rc/ir-sony-decoder.o drivers/media/rc/ir-sony-decoder.mod.o ;  true

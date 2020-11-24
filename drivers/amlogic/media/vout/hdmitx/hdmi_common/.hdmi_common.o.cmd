@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/vout/hdmitx/hdmi_common/hdmi_common.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/vout/hdmitx/hdmi_common/hdmi_common.o drivers/amlogic/media/vout/hdmitx/hdmi_common/hdmi_parameters.o ; scripts/mod/modpost drivers/amlogic/media/vout/hdmitx/hdmi_common/hdmi_common.o

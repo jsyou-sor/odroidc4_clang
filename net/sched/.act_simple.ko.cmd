@@ -1,0 +1,1 @@
+cmd_net/sched/act_simple.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/act_simple.ko net/sched/act_simple.o net/sched/act_simple.mod.o ;  true

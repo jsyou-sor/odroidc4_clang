@@ -1,0 +1,1 @@
+cmd_drivers/hid/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/hid/built-in.o drivers/hid/hid.o drivers/hid/uhid.o drivers/hid/hid-generic.o drivers/hid/usbhid/built-in.o ; scripts/mod/modpost drivers/hid/built-in.o

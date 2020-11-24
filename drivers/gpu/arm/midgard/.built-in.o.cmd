@@ -1,0 +1,1 @@
+cmd_drivers/gpu/arm/midgard/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/gpu/arm/midgard/built-in.o drivers/gpu/arm/midgard/mali_kbase.o ; scripts/mod/modpost drivers/gpu/arm/midgard/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/common/firmware/firmware.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/amlogic/media_modules/common/firmware/firmware.ko drivers/amlogic/media_modules/common/firmware/firmware.o drivers/amlogic/media_modules/common/firmware/firmware.mod.o ;  true

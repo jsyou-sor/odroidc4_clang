@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/clk/txl/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/clk/txl/built-in.o drivers/amlogic/clk/txl/txl.o drivers/amlogic/clk/txl/txl_ao.o drivers/amlogic/clk/txl/txl_clk_sdemmc.o drivers/amlogic/clk/txl/txl_clk_media.o drivers/amlogic/clk/txl/txl_clk_gpu.o ; scripts/mod/modpost drivers/amlogic/clk/txl/built-in.o

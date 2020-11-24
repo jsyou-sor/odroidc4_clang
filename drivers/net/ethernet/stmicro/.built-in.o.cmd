@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/net/ethernet/stmicro/built-in.o drivers/net/ethernet/stmicro/stmmac/built-in.o ; scripts/mod/modpost drivers/net/ethernet/stmicro/built-in.o

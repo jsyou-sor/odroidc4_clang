@@ -1,0 +1,1 @@
+cmd_drivers/net/can/softing/softing.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/net/can/softing/softing.ko drivers/net/can/softing/softing.o drivers/net/can/softing/softing.mod.o ;  true

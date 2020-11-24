@@ -1,0 +1,1 @@
+cmd_fs/nfs/filelayout/nfs_layout_nfsv41_files.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o fs/nfs/filelayout/nfs_layout_nfsv41_files.ko fs/nfs/filelayout/nfs_layout_nfsv41_files.o fs/nfs/filelayout/nfs_layout_nfsv41_files.mod.o ;  true

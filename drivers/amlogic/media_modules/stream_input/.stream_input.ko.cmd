@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/stream_input/stream_input.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/amlogic/media_modules/stream_input/stream_input.ko drivers/amlogic/media_modules/stream_input/stream_input.o drivers/amlogic/media_modules/stream_input/stream_input.mod.o ;  true

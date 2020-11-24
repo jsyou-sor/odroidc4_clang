@@ -1,0 +1,2 @@
+kernel/drivers/amlogic/media_modules/stream_input/parser/dvb_ci/ci.ko
+kernel/drivers/amlogic/media_modules/stream_input/parser/dvb_ci/cimax-usb.ko

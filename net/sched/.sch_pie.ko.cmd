@@ -1,0 +1,1 @@
+cmd_net/sched/sch_pie.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/sch_pie.ko net/sched/sch_pie.o net/sched/sch_pie.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/reg_access/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/reg_access/built-in.o drivers/amlogic/reg_access/reg_access.o ; scripts/mod/modpost drivers/amlogic/reg_access/built-in.o

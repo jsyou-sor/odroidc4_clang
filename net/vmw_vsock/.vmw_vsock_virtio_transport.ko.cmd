@@ -1,0 +1,1 @@
+cmd_net/vmw_vsock/vmw_vsock_virtio_transport.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/vmw_vsock/vmw_vsock_virtio_transport.ko net/vmw_vsock/vmw_vsock_virtio_transport.o net/vmw_vsock/vmw_vsock_virtio_transport.mod.o ;  true

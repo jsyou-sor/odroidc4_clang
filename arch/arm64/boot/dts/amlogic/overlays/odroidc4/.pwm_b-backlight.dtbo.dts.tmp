@@ -1,0 +1,48 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/pwm_b-backlight.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/pwm_b-backlight.dts" 2
+/dts-v1/;
+/plugin/;
+
+
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/pwm/meson.h" 1
+# 5 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/pwm_b-backlight.dts" 2
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/pwm/pwm.h" 1
+# 6 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/pwm_b-backlight.dts" 2
+
+/{
+ fragment@0 {
+
+
+  target = <&pwm_ab>;
+
+  __overlay__ {
+   status = "okay";
+   pinctrl-names = "pwm_pins";
+   pinctrl-0 = <&pwm_a_pins &pwm_b_pins2>;
+  };
+ };
+
+ fragment@1 {
+  target-path = "/";
+
+  __overlay__ {
+   backlight: backlight {
+    compatible = "pwm-backlight";
+    brightness-levels = <0
+     8 16 24 32
+     40 48 56 64
+     72 80 88 96
+     104 112 120 128
+     136 144 152 160
+     168 176 184 192
+     200 208 216 224
+     232 240 248 255
+    >;
+    default-brightness-level = <16>;
+    pwms = <&pwm_ab 1 1000000 0>;
+    status = "okay";
+   };
+  };
+ };
+};

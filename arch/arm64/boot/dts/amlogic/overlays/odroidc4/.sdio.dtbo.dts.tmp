@@ -1,0 +1,15 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/sdio.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/sdio.dts" 2
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target = <&sd_emmc_a>;
+
+  __overlay__ {
+   status = "okay";
+  };
+ };
+};

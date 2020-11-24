@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/staging/media/built-in.o drivers/staging/media/lirc/built-in.o ; scripts/mod/modpost drivers/staging/media/built-in.o

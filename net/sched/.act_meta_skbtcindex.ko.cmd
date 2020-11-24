@@ -1,0 +1,1 @@
+cmd_net/sched/act_meta_skbtcindex.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/act_meta_skbtcindex.ko net/sched/act_meta_skbtcindex.o net/sched/act_meta_skbtcindex.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/common/firmware/firmware.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/common/firmware/firmware.o drivers/amlogic/media_modules/common/firmware/firmware_drv.o drivers/amlogic/media_modules/common/firmware/firmware_type.o ; scripts/mod/modpost drivers/amlogic/media_modules/common/firmware/firmware.o

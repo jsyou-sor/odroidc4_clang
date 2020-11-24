@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/joydump.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/joystick/joydump.ko drivers/input/joystick/joydump.o drivers/input/joystick/joydump.mod.o ;  true

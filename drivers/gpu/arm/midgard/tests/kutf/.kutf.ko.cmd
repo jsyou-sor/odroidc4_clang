@@ -1,0 +1,1 @@
+cmd_drivers/gpu/arm/midgard/tests/kutf/kutf.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/gpu/arm/midgard/tests/kutf/kutf.ko drivers/gpu/arm/midgard/tests/kutf/kutf.o drivers/gpu/arm/midgard/tests/kutf/kutf.mod.o ;  true

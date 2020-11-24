@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/gpioplug-ir-recv.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/rc/gpioplug-ir-recv.ko drivers/media/rc/gpioplug-ir-recv.o drivers/media/rc/gpioplug-ir-recv.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/audiodsp/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/audiodsp/built-in.o drivers/amlogic/audiodsp/audiodsp.o ; scripts/mod/modpost drivers/amlogic/audiodsp/built-in.o

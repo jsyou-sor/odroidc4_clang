@@ -1,0 +1,1 @@
+cmd_sound/drivers/mpu401/snd-mpu401-uart.o := aarch64-linux-gnu-ld -EL    -r -o sound/drivers/mpu401/snd-mpu401-uart.o sound/drivers/mpu401/mpu401_uart.o ; scripts/mod/modpost sound/drivers/mpu401/snd-mpu401-uart.o

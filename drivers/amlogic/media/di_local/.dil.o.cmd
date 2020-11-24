@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/di_local/dil.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/di_local/dil.o drivers/amlogic/media/di_local/di_local.o ; scripts/mod/modpost drivers/amlogic/media/di_local/dil.o

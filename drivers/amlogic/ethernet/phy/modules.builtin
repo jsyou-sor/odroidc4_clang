@@ -1,0 +1,2 @@
+kernel/drivers/amlogic/ethernet/phy/amlogic.ko
+kernel/drivers/amlogic/ethernet/phy/phy_debug.ko

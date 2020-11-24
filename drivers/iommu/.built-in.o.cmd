@@ -1,0 +1,1 @@
+cmd_drivers/iommu/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/iommu/built-in.o drivers/iommu/iommu.o drivers/iommu/iommu-traces.o drivers/iommu/iommu-sysfs.o drivers/iommu/dma-iommu.o drivers/iommu/iova.o drivers/iommu/of_iommu.o ; scripts/mod/modpost drivers/iommu/built-in.o

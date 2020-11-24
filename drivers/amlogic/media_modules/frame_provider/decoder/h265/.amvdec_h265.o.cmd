@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_provider/decoder/h265/amvdec_h265.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/frame_provider/decoder/h265/amvdec_h265.o drivers/amlogic/media_modules/frame_provider/decoder/h265/vh265.o ; scripts/mod/modpost drivers/amlogic/media_modules/frame_provider/decoder/h265/amvdec_h265.o

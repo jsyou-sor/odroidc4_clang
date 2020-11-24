@@ -1,0 +1,1 @@
+cmd_drivers/atm/atmtcp.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/atm/atmtcp.ko drivers/atm/atmtcp.o drivers/atm/atmtcp.mod.o ;  true

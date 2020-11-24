@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfcmrvl/nfcmrvl.o := aarch64-linux-gnu-ld -EL    -r -o drivers/nfc/nfcmrvl/nfcmrvl.o drivers/nfc/nfcmrvl/main.o drivers/nfc/nfcmrvl/fw_dnld.o ; scripts/mod/modpost drivers/nfc/nfcmrvl/nfcmrvl.o

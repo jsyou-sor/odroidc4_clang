@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/built-in.o sound/soc/amlogic/meson/built-in.o sound/soc/amlogic/auge/built-in.o sound/soc/amlogic/common/built-in.o ; scripts/mod/modpost sound/soc/amlogic/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/gf2k.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/joystick/gf2k.ko drivers/input/joystick/gf2k.o drivers/input/joystick/gf2k.mod.o ;  true

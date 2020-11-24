@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/sx8650.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/touchscreen/sx8650.ko drivers/input/touchscreen/sx8650.o drivers/input/touchscreen/sx8650.mod.o ;  true

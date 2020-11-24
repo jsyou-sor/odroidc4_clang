@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/smartcard/amsmc.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/smartcard/amsmc.o drivers/amlogic/smartcard/smartcard.o ; scripts/mod/modpost drivers/amlogic/smartcard/amsmc.o

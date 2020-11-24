@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-betopff.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-betopff.ko drivers/hid/hid-betopff.o drivers/hid/hid-betopff.mod.o ;  true

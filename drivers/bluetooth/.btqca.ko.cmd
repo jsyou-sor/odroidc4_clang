@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btqca.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/bluetooth/btqca.ko drivers/bluetooth/btqca.o drivers/bluetooth/btqca.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/meson-ir.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/rc/meson-ir.ko drivers/media/rc/meson-ir.o drivers/media/rc/meson-ir.mod.o ;  true

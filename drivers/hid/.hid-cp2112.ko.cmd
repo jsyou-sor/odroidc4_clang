@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-cp2112.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-cp2112.ko drivers/hid/hid-cp2112.o drivers/hid/hid-cp2112.mod.o ;  true

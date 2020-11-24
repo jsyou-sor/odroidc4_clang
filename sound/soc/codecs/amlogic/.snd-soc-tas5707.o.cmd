@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-tas5707.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-tas5707.o sound/soc/codecs/amlogic/tas5707.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-tas5707.o

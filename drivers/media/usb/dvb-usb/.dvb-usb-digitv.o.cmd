@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-digitv.o := aarch64-linux-gnu-ld -EL    -r -o drivers/media/usb/dvb-usb/dvb-usb-digitv.o drivers/media/usb/dvb-usb/digitv.o ; scripts/mod/modpost drivers/media/usb/dvb-usb/dvb-usb-digitv.o

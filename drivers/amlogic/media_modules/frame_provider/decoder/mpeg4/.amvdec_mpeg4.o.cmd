@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_provider/decoder/mpeg4/amvdec_mpeg4.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/frame_provider/decoder/mpeg4/amvdec_mpeg4.o drivers/amlogic/media_modules/frame_provider/decoder/mpeg4/vmpeg4.o ; scripts/mod/modpost drivers/amlogic/media_modules/frame_provider/decoder/mpeg4/amvdec_mpeg4.o

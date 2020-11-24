@@ -423,7 +423,9 @@ int l_DI_POST_WR_REG_BITS(u32 adr, u32 val, u32 start, u32 len)
 		PR_ERR("REG 0x%x access prohibited.\n", adr);
 		return -1;
 	}
-	return VSYNC_WR_MPEG_REG_BITS(adr, val, start, len);
+	//return VSYNC_WR_MPEG_REG_BITS(adr, val, start, len);
+	VSYNC_WR_MPEG_REG_BITS(adr, val, start, len);
+	return 1;
 }
 
 #endif
@@ -1442,6 +1444,7 @@ static int di_wr_idx;
 
 int dim_get_canvas(void)
 {
+	int i = 0;
 	unsigned int pre_num = 7, post_num = 6;
 	struct di_dev_s  *de_devp = get_dim_de_devp();
 

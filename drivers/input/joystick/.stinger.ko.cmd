@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/stinger.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/joystick/stinger.ko drivers/input/joystick/stinger.o drivers/input/joystick/stinger.mod.o ;  true

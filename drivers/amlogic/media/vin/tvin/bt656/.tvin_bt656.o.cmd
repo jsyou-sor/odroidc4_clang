@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/vin/tvin/bt656/tvin_bt656.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/vin/tvin/bt656/tvin_bt656.o drivers/amlogic/media/vin/tvin/bt656/bt656_601_in.o ; scripts/mod/modpost drivers/amlogic/media/vin/tvin/bt656/tvin_bt656.o

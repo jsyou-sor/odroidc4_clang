@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/irqchip/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/irqchip/built-in.o drivers/amlogic/irqchip/irq-meson-gpio.o drivers/amlogic/irqchip/irq-meson-gpio-double-edge.o ; scripts/mod/modpost drivers/amlogic/irqchip/built-in.o

@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/meson/snd-soc-i2s-dai.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/meson/snd-soc-i2s-dai.o sound/soc/amlogic/meson/i2s_dai.o ; scripts/mod/modpost sound/soc/amlogic/meson/snd-soc-i2s-dai.o

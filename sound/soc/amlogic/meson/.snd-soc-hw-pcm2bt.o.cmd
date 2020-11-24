@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/meson/snd-soc-hw-pcm2bt.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/meson/snd-soc-hw-pcm2bt.o sound/soc/amlogic/meson/audio_hw_pcm.o ; scripts/mod/modpost sound/soc/amlogic/meson/snd-soc-hw-pcm2bt.o

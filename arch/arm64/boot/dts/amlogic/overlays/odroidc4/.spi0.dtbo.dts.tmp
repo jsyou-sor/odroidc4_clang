@@ -1,0 +1,26 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/spi0.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/spi0.dts" 2
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target = <&spicc0>;
+
+  __overlay__ {
+   status = "okay";
+
+   #address-cells = <1>;
+   #size-cells = <0>;
+
+   spidev: spidev@0 {
+    status = "okay";
+    compatible = "linux,spidev";
+    reg = <0>;
+
+    spi-max-frequency = <100000000>;
+   };
+  };
+ };
+};

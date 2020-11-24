@@ -1,0 +1,4 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidc4/.can0.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidc4/can0.dts \
+  arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h \
+  arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/net/phy/built-in.o drivers/net/phy/libphy.o drivers/net/phy/fixed_phy.o drivers/net/phy/icplus.o drivers/net/phy/realtek.o ; scripts/mod/modpost drivers/net/phy/built-in.o

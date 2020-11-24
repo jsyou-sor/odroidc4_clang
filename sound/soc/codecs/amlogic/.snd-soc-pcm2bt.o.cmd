@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-pcm2bt.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-pcm2bt.o sound/soc/codecs/amlogic/pcm2bt.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-pcm2bt.o

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-zpff.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-zpff.ko drivers/hid/hid-zpff.o drivers/hid/hid-zpff.mod.o ;  true

@@ -1,0 +1,69 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft35.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft35.dts" 2
+/dts-v1/;
+/plugin/;
+
+
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h" 1
+# 5 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft35.dts" 2
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h" 1
+# 6 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft35.dts" 2
+
+/ {
+ fragment@0 {
+  target-path = "/";
+
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  __overlay__ {
+   hktft35: hktft35 {
+    status = "okay";
+    compatible = "odroid,hktft35";
+    pinctrl-names = "hktft35";
+    pinctrl-0 = <&hktft35_pins>;
+
+    rotate = <270>;
+    bgr;
+    fps = <20>;
+    bpp = <16>;
+    reset-gpios = <&gpio 69 1>;
+    dc-gpios = <&gpio 80 1>;
+    wr-gpios = <&gpio 76 1>;
+    cs-gpios = <&gpio 82 1>;
+    led-gpios = <&gpio 72 1>;
+    db-gpios = <&gpio 67 1>,
+     <&gpio 68 1>,
+     <&gpio 66 1>,
+     <&gpio 77 1>,
+     <&gpio 75 1>,
+     <&gpio 74 1>,
+     <&gpio 73 1>,
+     <&gpio 70 1>;
+    debug = <0>;
+
+    hktft35_pins: hktft35_pins {
+     mux {
+      groups = "GPIOX_0",
+       "GPIOX_1",
+       "GPIOX_2",
+       "GPIOX_3",
+       "GPIOX_4",
+       "GPIOX_6",
+       "GPIOX_7",
+       "GPIOX_8",
+       "GPIOX_9",
+       "GPIOX_10",
+       "GPIOX_11",
+       "GPIOX_14",
+       "GPIOX_16";
+      function = "gpio_periphs";
+      output-high;
+      drive-strength = <3>;
+     };
+    };
+   };
+  };
+ };
+};

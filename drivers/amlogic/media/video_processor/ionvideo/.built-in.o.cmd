@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/video_processor/ionvideo/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/video_processor/ionvideo/built-in.o drivers/amlogic/media/video_processor/ionvideo/ionvideo.o drivers/amlogic/media/video_processor/ionvideo/ppmgr2.o ; scripts/mod/modpost drivers/amlogic/media/video_processor/ionvideo/built-in.o

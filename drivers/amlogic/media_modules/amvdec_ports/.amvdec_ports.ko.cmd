@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/amvdec_ports/amvdec_ports.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/amlogic/media_modules/amvdec_ports/amvdec_ports.ko drivers/amlogic/media_modules/amvdec_ports/amvdec_ports.o drivers/amlogic/media_modules/amvdec_ports/amvdec_ports.mod.o ;  true

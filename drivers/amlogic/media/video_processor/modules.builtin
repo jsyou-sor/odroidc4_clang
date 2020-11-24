@@ -1,0 +1,8 @@
+kernel/drivers/amlogic/media/video_processor/ionvideo/ionvideo.ko
+kernel/drivers/amlogic/media/video_processor/ionvideo/ppmgr2.ko
+kernel/drivers/amlogic/media/video_processor/pic_dev/picdec.ko
+kernel/drivers/amlogic/media/video_processor/ppmgr/ppmgr.ko
+kernel/drivers/amlogic/media/video_processor/video_dev/amlcm.ko
+kernel/drivers/amlogic/media/video_processor/video_dev/amlvideodri.ko
+kernel/drivers/amlogic/media/video_processor/video_dev/amlvideo2dri.ko
+kernel/drivers/amlogic/media/video_processor/videosync/videosync.ko

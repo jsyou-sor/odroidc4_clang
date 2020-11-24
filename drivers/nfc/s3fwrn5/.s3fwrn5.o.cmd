@@ -1,0 +1,1 @@
+cmd_drivers/nfc/s3fwrn5/s3fwrn5.o := aarch64-linux-gnu-ld -EL    -r -o drivers/nfc/s3fwrn5/s3fwrn5.o drivers/nfc/s3fwrn5/core.o drivers/nfc/s3fwrn5/firmware.o drivers/nfc/s3fwrn5/nci.o ; scripts/mod/modpost drivers/nfc/s3fwrn5/s3fwrn5.o

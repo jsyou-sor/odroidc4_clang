@@ -1,0 +1,4 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidn2/.onewire.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidn2/onewire.dts \
+  arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h \
+  arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h

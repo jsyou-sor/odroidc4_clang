@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/enhancement/amdolby_vision/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/enhancement/amdolby_vision/built-in.o drivers/amlogic/media/enhancement/amdolby_vision/amdolby_vision.o ; scripts/mod/modpost drivers/amlogic/media/enhancement/amdolby_vision/built-in.o

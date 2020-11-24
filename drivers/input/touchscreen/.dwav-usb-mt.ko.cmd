@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/dwav-usb-mt.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/touchscreen/dwav-usb-mt.ko drivers/input/touchscreen/dwav-usb-mt.o drivers/input/touchscreen/dwav-usb-mt.mod.o ;  true

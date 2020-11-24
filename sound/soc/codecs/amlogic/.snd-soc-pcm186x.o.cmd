@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-pcm186x.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-pcm186x.o sound/soc/codecs/amlogic/pcm186x.o sound/soc/codecs/amlogic/pcm186x-i2c.o sound/soc/codecs/amlogic/pcm186x-spi.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-pcm186x.o

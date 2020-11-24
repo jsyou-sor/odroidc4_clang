@@ -1,0 +1,1 @@
+cmd_net/netfilter/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o net/netfilter/built-in.o net/netfilter/netfilter.o net/netfilter/nfnetlink.o net/netfilter/nfnetlink_queue.o net/netfilter/nfnetlink_log.o ; scripts/mod/modpost net/netfilter/built-in.o

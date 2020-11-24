@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/common/ion_dev/amlIonDr.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/common/ion_dev/amlIonDr.o drivers/amlogic/media/common/ion_dev/dev_ion.o ; scripts/mod/modpost drivers/amlogic/media/common/ion_dev/amlIonDr.o

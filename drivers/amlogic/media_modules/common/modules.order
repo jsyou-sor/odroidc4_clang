@@ -1,0 +1,2 @@
+kernel/drivers/amlogic/media_modules/common/media_clock/media_clock.ko
+kernel/drivers/amlogic/media_modules/common/firmware/firmware.ko

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-uclogic.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-uclogic.ko drivers/hid/hid-uclogic.o drivers/hid/hid-uclogic.mod.o ;  true

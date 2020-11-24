@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/meson/snd-soc-spdif-codec.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/meson/snd-soc-spdif-codec.o sound/soc/amlogic/meson/spdif_codec.o ; scripts/mod/modpost sound/soc/amlogic/meson/snd-soc-spdif-codec.o

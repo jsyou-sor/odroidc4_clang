@@ -1,0 +1,1 @@
+cmd_drivers/net/can/softing/softing.o := aarch64-linux-gnu-ld -EL    -r -o drivers/net/can/softing/softing.o drivers/net/can/softing/softing_main.o drivers/net/can/softing/softing_fw.o ; scripts/mod/modpost drivers/net/can/softing/softing.o

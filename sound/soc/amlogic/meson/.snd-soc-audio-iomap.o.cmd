@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/meson/snd-soc-audio-iomap.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/meson/snd-soc-audio-iomap.o sound/soc/amlogic/meson/audio_iomap.o ; scripts/mod/modpost sound/soc/amlogic/meson/snd-soc-audio-iomap.o

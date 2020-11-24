@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/vin/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/vin/built-in.o drivers/amlogic/media/vin/tvin/built-in.o ; scripts/mod/modpost drivers/amlogic/media/vin/built-in.o

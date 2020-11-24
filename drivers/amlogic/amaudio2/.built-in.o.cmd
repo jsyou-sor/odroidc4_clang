@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/amaudio2/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/amaudio2/built-in.o drivers/amlogic/amaudio2/amlogic_amaudio2.o ; scripts/mod/modpost drivers/amlogic/amaudio2/built-in.o

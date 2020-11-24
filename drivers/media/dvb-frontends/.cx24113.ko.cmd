@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cx24113.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/dvb-frontends/cx24113.ko drivers/media/dvb-frontends/cx24113.o drivers/media/dvb-frontends/cx24113.mod.o ;  true

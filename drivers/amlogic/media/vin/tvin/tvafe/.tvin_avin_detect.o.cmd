@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/vin/tvin/tvafe/tvin_avin_detect.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/vin/tvin/tvafe/tvin_avin_detect.o drivers/amlogic/media/vin/tvin/tvafe/tvafe_avin_detect.o ; scripts/mod/modpost drivers/amlogic/media/vin/tvin/tvafe/tvin_avin_detect.o

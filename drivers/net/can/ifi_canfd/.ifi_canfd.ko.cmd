@@ -1,0 +1,1 @@
+cmd_drivers/net/can/ifi_canfd/ifi_canfd.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/net/can/ifi_canfd/ifi_canfd.ko drivers/net/can/ifi_canfd/ifi_canfd.o drivers/net/can/ifi_canfd/ifi_canfd.mod.o ;  true

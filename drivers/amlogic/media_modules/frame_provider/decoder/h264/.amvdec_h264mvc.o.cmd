@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_provider/decoder/h264/amvdec_h264mvc.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/frame_provider/decoder/h264/amvdec_h264mvc.o drivers/amlogic/media_modules/frame_provider/decoder/h264/vh264_mvc.o ; scripts/mod/modpost drivers/amlogic/media_modules/frame_provider/decoder/h264/amvdec_h264mvc.o

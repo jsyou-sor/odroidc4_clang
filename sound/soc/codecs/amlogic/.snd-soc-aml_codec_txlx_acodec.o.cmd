@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-aml_codec_txlx_acodec.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-aml_codec_txlx_acodec.o sound/soc/codecs/amlogic/aml_codec_txlx_acodec.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-aml_codec_txlx_acodec.o

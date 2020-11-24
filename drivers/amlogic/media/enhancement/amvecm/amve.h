@@ -136,8 +136,8 @@ extern unsigned int sync_3d_sync_to_vbo;
 
 
 #ifndef CONFIG_AMLOGIC_MEDIA_VSYNC_RDMA
-#define VSYNC_WR_MPEG_REG(adr, val) WRITE_VPP_REG(adr, val)
-#define VSYNC_RD_MPEG_REG(adr) READ_VPP_REG(adr)
+//#define VSYNC_WR_MPEG_REG(adr, val) WRITE_VPP_REG(adr, val)
+//#define VSYNC_RD_MPEG_REG(adr) READ_VPP_REG(adr)
 #else
 extern u32 VSYNC_RD_MPEG_REG(u32 adr);
 extern int VSYNC_WR_MPEG_REG(u32 adr, u32 val);

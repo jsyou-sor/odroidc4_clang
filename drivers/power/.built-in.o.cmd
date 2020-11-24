@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/power/built-in.o drivers/power/reset/built-in.o drivers/power/supply/built-in.o ; scripts/mod/modpost drivers/power/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/ata/libahci_platform.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/ata/libahci_platform.ko drivers/ata/libahci_platform.o drivers/ata/libahci_platform.mod.o ;  true

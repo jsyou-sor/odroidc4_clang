@@ -804,7 +804,7 @@ static int __mmc_blk_ioctl_cmd(struct mmc_card *card, struct mmc_blk_data *md,
 	struct scatterlist sg;
 	
     // Not used when AMLOGI_MMC is disabled
-    //struct scatterlist *ffu_sg = NULL;
+    struct scatterlist *ffu_sg = NULL;
 	
     int err;
 	int is_rpmb = false;

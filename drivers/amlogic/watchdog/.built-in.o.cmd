@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/watchdog/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/watchdog/built-in.o drivers/amlogic/watchdog/meson_wdt.o drivers/amlogic/watchdog/meson_wdt_v3.o ; scripts/mod/modpost drivers/amlogic/watchdog/built-in.o

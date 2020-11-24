@@ -1,0 +1,3 @@
+kernel/drivers/input/touchscreen/ads7846.ko
+kernel/drivers/input/touchscreen/sx8650.ko
+kernel/drivers/input/touchscreen/dwav-usb-mt.ko

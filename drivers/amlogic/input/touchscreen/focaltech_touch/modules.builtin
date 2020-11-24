@@ -1,0 +1,12 @@
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_core.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_ex_fun.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_ex_mode.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_flash.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_gesture.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_esdcheck.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_i2c.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_sensor.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_point_report_check.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_flash/focaltech_upgrade_idc.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_flash/focaltech_upgrade_ft7250.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_flash/focaltech_upgrade_test.ko

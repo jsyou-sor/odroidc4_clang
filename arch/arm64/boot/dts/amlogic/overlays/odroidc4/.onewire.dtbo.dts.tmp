@@ -1,0 +1,25 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/onewire.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/onewire.dts" 2
+/dts-v1/;
+/plugin/;
+
+
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h" 1
+# 5 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/onewire.dts" 2
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h" 1
+# 6 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/onewire.dts" 2
+
+/ {
+ fragment@0 {
+  target-path = "/";
+
+  __overlay__ {
+   onewire:onewire {
+    compatible = "w1-gpio";
+    gpios = <&gpio 73 0>;
+    status = "okay";
+   };
+  };
+ };
+};

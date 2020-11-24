@@ -1,0 +1,52 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft32.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft32.dts" 2
+/dts-v1/;
+/plugin/;
+
+
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h" 1
+# 5 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft32.dts" 2
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h" 1
+# 6 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/hktft32.dts" 2
+
+/ {
+ fragment@0 {
+  target = <&spicc0>;
+
+  __overlay__ {
+   status = "okay";
+
+   #address-cells = <1>;
+   #size-cells = <0>;
+
+   hktft32: hktft32@0 {
+    status = "okay";
+    compatible = "odroid,hktft32";
+    reg = <0>;
+    pinctrl-names = "hktft32";
+    pinctrl-0 = <&hktft32_pins>;
+
+    spi-max-frequency = <40000000>;
+    rotate = <90>;
+    bgr;
+    backlight;
+    fps = <20>;
+    bpp = <16>;
+    reset-gpios = <&gpio 70 1>;
+    dc-gpios = <&gpio 73 1>;
+    debug = <0>;
+
+    hktft32_pins: hktft32_pins {
+     mux {
+      groups = "GPIOX_4",
+       "GPIOX_7";
+      function = "gpio_periphs";
+      output-high;
+      drive-strength = <3>;
+     };
+    };
+   };
+  };
+ };
+};

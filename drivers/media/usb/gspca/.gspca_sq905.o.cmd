@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_sq905.o := aarch64-linux-gnu-ld -EL    -r -o drivers/media/usb/gspca/gspca_sq905.o drivers/media/usb/gspca/sq905.o ; scripts/mod/modpost drivers/media/usb/gspca/gspca_sq905.o

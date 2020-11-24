@@ -1,0 +1,1 @@
+cmd_drivers/usb/phy/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/usb/phy/built-in.o drivers/usb/phy/phy.o drivers/usb/phy/of.o drivers/usb/phy/phy-isp1301.o ; scripts/mod/modpost drivers/usb/phy/built-in.o

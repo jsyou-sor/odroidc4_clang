@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/input/touchscreen/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/input/touchscreen/built-in.o drivers/amlogic/input/touchscreen/focaltech_touch/built-in.o drivers/amlogic/input/touchscreen/goodix_gt1x/built-in.o drivers/amlogic/input/touchscreen/goodix_gt9xx/built-in.o ; scripts/mod/modpost drivers/amlogic/input/touchscreen/built-in.o

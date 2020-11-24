@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/ethernet/phy/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/ethernet/phy/built-in.o drivers/amlogic/ethernet/phy/amlogic.o drivers/amlogic/ethernet/phy/phy_debug.o ; scripts/mod/modpost drivers/amlogic/ethernet/phy/built-in.o

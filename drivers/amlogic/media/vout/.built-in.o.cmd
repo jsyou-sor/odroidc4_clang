@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/vout/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/vout/built-in.o drivers/amlogic/media/vout/cvbs/built-in.o drivers/amlogic/media/vout/vdac/built-in.o drivers/amlogic/media/vout/hdmitx/built-in.o drivers/amlogic/media/vout/vout_serve/built-in.o ; scripts/mod/modpost drivers/amlogic/media/vout/built-in.o

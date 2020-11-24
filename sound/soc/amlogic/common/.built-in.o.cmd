@@ -1,0 +1,1 @@
+cmd_sound/soc/amlogic/common/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o sound/soc/amlogic/common/built-in.o sound/soc/amlogic/common/notify.o sound/soc/amlogic/common/spdif_info.o sound/soc/amlogic/common/misc.o sound/soc/amlogic/common/iomapres.o ; scripts/mod/modpost sound/soc/amlogic/common/built-in.o

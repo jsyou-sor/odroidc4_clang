@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/common/vpu/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/common/vpu/built-in.o drivers/amlogic/media/common/vpu/vpu.o drivers/amlogic/media/common/vpu/vpu_reg.o drivers/amlogic/media/common/vpu/vpu_power_init.o ; scripts/mod/modpost drivers/amlogic/media/common/vpu/built-in.o

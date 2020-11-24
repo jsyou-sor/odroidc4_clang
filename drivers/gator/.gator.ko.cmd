@@ -1,0 +1,1 @@
+cmd_drivers/gator/gator.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/gator/gator.ko drivers/gator/gator.o drivers/gator/gator.mod.o ;  true

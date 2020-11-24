@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/pppopns.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/net/ppp/pppopns.ko drivers/net/ppp/pppopns.o drivers/net/ppp/pppopns.mod.o ;  true

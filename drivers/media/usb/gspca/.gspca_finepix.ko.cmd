@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_finepix.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/usb/gspca/gspca_finepix.ko drivers/media/usb/gspca/gspca_finepix.o drivers/media/usb/gspca/gspca_finepix.mod.o ;  true

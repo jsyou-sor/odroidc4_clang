@@ -1,0 +1,44 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/sx865x-i2c1.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/sx865x-i2c1.dts" 2
+/dts-v1/;
+/plugin/;
+
+
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/meson-g12a-gpio.h" 1
+# 5 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/sx865x-i2c1.dts" 2
+# 1 "./arch/arm64/boot/dts/include/dt-bindings/gpio/gpio.h" 1
+# 6 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/sx865x-i2c1.dts" 2
+
+/ {
+ fragment@0 {
+
+  target = <&i2c3>;
+
+  __overlay__ {
+   status = "okay";
+
+   #address-cells = <1>;
+   #size-cells = <0>;
+
+
+
+   sx865x: sx865x@49 {
+    status = "okay";
+    compatible = "semtech,sx8650";
+    reg = <0x49>;
+    #clock-cells = <0>;
+
+
+
+    gpio-pendown = <&gpio 22 1>;
+    gpio-reset = <&gpio 24 1>;
+
+
+    invert-x = <0>;
+    invert-y = <1>;
+    swap-xy = <1>;
+   };
+  };
+ };
+};

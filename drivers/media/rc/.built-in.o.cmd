@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/media/rc/built-in.o drivers/media/rc/keymaps/built-in.o drivers/media/rc/rc-core.o drivers/media/rc/hk-lirc-helper.o ; scripts/mod/modpost drivers/media/rc/built-in.o

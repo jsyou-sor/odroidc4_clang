@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-ryos.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-roccat-ryos.ko drivers/hid/hid-roccat-ryos.o drivers/hid/hid-roccat-ryos.mod.o ;  true

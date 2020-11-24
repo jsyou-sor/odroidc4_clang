@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/amaudio/amlogic_amaudio.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/amaudio/amlogic_amaudio.o drivers/amlogic/amaudio/amaudio.o ; scripts/mod/modpost drivers/amlogic/amaudio/amlogic_amaudio.o

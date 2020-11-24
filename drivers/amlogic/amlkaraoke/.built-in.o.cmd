@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/amlkaraoke/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/amlkaraoke/built-in.o drivers/amlogic/amlkaraoke/amlogic_karaoke.o ; scripts/mod/modpost drivers/amlogic/amlkaraoke/built-in.o

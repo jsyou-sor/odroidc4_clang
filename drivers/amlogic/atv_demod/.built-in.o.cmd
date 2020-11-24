@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/atv_demod/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/atv_demod/built-in.o drivers/amlogic/atv_demod/atvdemod_fe.o ; scripts/mod/modpost drivers/amlogic/atv_demod/built-in.o

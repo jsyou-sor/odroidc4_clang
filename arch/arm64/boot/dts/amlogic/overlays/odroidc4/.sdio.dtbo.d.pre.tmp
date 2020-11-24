@@ -1,0 +1,2 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidc4/.sdio.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidc4/sdio.dts

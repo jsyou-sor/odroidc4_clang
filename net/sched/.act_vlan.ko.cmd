@@ -1,0 +1,1 @@
+cmd_net/sched/act_vlan.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/act_vlan.ko net/sched/act_vlan.o net/sched/act_vlan.mod.o ;  true

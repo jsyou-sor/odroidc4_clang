@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/staging/android/built-in.o drivers/staging/android/ion/built-in.o ; scripts/mod/modpost drivers/staging/android/built-in.o

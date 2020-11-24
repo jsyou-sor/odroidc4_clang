@@ -1,0 +1,1 @@
+cmd_drivers/firmware/efi/libstub/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/firmware/efi/libstub/built-in.o drivers/firmware/efi/libstub/lib-ksyms.o ; scripts/mod/modpost drivers/firmware/efi/libstub/built-in.o

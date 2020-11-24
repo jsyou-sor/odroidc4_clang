@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/ssu100.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/usb/serial/ssu100.ko drivers/usb/serial/ssu100.o drivers/usb/serial/ssu100.mod.o ;  true

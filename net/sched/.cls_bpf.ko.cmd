@@ -1,0 +1,1 @@
+cmd_net/sched/cls_bpf.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/cls_bpf.ko net/sched/cls_bpf.o net/sched/cls_bpf.mod.o ;  true

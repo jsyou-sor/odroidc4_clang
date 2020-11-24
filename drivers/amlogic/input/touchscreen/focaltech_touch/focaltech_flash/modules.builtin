@@ -1,0 +1,3 @@
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_flash/focaltech_upgrade_idc.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_flash/focaltech_upgrade_ft7250.ko
+kernel/drivers/amlogic/input/touchscreen/focaltech_touch/focaltech_flash/focaltech_upgrade_test.ko

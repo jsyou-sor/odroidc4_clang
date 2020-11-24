@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/videobuf2-v4l2.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/v4l2-core/videobuf2-v4l2.ko drivers/media/v4l2-core/videobuf2-v4l2.o drivers/media/v4l2-core/videobuf2-v4l2.mod.o ;  true

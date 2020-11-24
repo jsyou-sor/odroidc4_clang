@@ -1,0 +1,15 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidn2/uart1.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidn2/uart1.dts" 2
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+  target = <&uart_B>;
+
+  __overlay__ {
+   status = "okay";
+  };
+ };
+};

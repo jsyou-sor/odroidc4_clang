@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_provider/decoder/vp9/amvdec_vp9.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/frame_provider/decoder/vp9/amvdec_vp9.o drivers/amlogic/media_modules/frame_provider/decoder/vp9/vvp9.o ; scripts/mod/modpost drivers/amlogic/media_modules/frame_provider/decoder/vp9/amvdec_vp9.o

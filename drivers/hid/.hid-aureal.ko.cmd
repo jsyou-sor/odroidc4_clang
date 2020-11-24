@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-aureal.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-aureal.ko drivers/hid/hid-aureal.o drivers/hid/hid-aureal.mod.o ;  true

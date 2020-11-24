@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/frame_sync/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/frame_sync/built-in.o drivers/amlogic/media/frame_sync/frame_sync.o ; scripts/mod/modpost drivers/amlogic/media/frame_sync/built-in.o

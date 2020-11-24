@@ -918,10 +918,10 @@ static int mmc_sdio_pre_suspend(struct mmc_host *host)
 static int mmc_sdio_suspend(struct mmc_host *host)
 {
 	mmc_claim_host(host);
-
+#ifdef CONFIG_AMLOGIC_MMC
 	if (host->wifi_down_f)
 		host->pm_flags |= MMC_PM_KEEP_POWER;
-
+#endif
 	if (mmc_card_keep_power(host) && mmc_card_wake_sdio_irq(host))
 		sdio_disable_wide(host->card);
 

@@ -1,0 +1,2 @@
+kernel/drivers/amlogic/input/keyboard/adc_keypad.ko
+kernel/drivers/amlogic/input/keyboard/gpio_keypad.ko

@@ -519,16 +519,16 @@ extern int metadata_sync(uint32_t frame_id, uint64_t pts);
 extern void amvecm_wakeup_queue(void);
 extern void lc_load_curve(struct ve_lc_curve_parm_s *p);
 
-#ifndef CONFIG_AMLOGIC_MEDIA_VSYNC_RDMA
-#define VSYNC_WR_MPEG_REG(adr, val) WRITE_VPP_REG(adr, val)
-#define VSYNC_RD_MPEG_REG(adr) READ_VPP_REG(adr)
-#define VSYNC_WR_MPEG_REG_BITS(adr, val, start, len) \
-	WRITE_VPP_REG_BITS(adr, val, start, len)
-#else
+//#ifndef CONFIG_AMLOGIC_MEDIA_VSYNC_RDMA
+//#define VSYNC_WR_MPEG_REG(adr, val) WRITE_VPP_REG(adr, val)
+//#define VSYNC_RD_MPEG_REG(adr) READ_VPP_REG(adr)
+//#define VSYNC_WR_MPEG_REG_BITS(adr, val, start, len) \
+	//WRITE_VPP_REG_BITS(adr, val, start, len)
+//#else
 extern int VSYNC_WR_MPEG_REG_BITS(u32 adr, u32 val, u32 start, u32 len);
 extern u32 VSYNC_RD_MPEG_REG(u32 adr);
 extern int VSYNC_WR_MPEG_REG(u32 adr, u32 val);
-#endif
+//#endif
 extern int amvecm_drm_get_gamma_size(u32 index);
 extern void amvecm_drm_init(u32 index);
 extern int amvecm_drm_gamma_set(u32 index,

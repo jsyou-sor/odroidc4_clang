@@ -1,0 +1,19 @@
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/pwm_ab.dts"
+# 1 "<built-in>" 1
+# 1 "arch/arm64/boot/dts/amlogic/overlays/odroidc4/pwm_ab.dts" 2
+/dts-v1/;
+/plugin/;
+
+/ {
+ fragment@0 {
+
+
+  target = <&pwm_ab>;
+
+  __overlay__ {
+   status = "okay";
+   pinctrl-names = "pwm_pins";
+   pinctrl-0 = <&pwm_a_pins &pwm_b_pins2>;
+  };
+ };
+};

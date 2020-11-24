@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/stmicro/stmmac/stmmac-platform.o := aarch64-linux-gnu-ld -EL    -r -o drivers/net/ethernet/stmicro/stmmac/stmmac-platform.o drivers/net/ethernet/stmicro/stmmac/stmmac_platform.o ; scripts/mod/modpost drivers/net/ethernet/stmicro/stmmac/stmmac-platform.o

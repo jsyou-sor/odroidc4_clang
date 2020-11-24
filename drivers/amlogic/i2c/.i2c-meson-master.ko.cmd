@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/i2c/i2c-meson-master.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/amlogic/i2c/i2c-meson-master.ko drivers/amlogic/i2c/i2c-meson-master.o drivers/amlogic/i2c/i2c-meson-master.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_sound/drivers/mpu401/snd-mpu401.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o sound/drivers/mpu401/snd-mpu401.ko sound/drivers/mpu401/snd-mpu401.o sound/drivers/mpu401/snd-mpu401.mod.o ;  true

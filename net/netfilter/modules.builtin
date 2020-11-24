@@ -1,0 +1,3 @@
+kernel/net/netfilter/nfnetlink.ko
+kernel/net/netfilter/nfnetlink_queue.ko
+kernel/net/netfilter/nfnetlink_log.ko

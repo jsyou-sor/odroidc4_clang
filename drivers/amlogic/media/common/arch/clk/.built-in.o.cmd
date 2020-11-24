@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/common/arch/clk/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/common/arch/clk/built-in.o drivers/amlogic/media/common/arch/clk/gp_pll.o ; scripts/mod/modpost drivers/amlogic/media/common/arch/clk/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/nfc/st95hf/st95hf.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/nfc/st95hf/st95hf.ko drivers/nfc/st95hf/st95hf.o drivers/nfc/st95hf/st95hf.mod.o ;  true

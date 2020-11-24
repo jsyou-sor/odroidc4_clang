@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/frame_provider/decoder/mjpeg/amvdec_mjpeg.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media_modules/frame_provider/decoder/mjpeg/amvdec_mjpeg.o drivers/amlogic/media_modules/frame_provider/decoder/mjpeg/vmjpeg.o ; scripts/mod/modpost drivers/amlogic/media_modules/frame_provider/decoder/mjpeg/amvdec_mjpeg.o

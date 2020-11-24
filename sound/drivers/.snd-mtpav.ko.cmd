@@ -1,0 +1,1 @@
+cmd_sound/drivers/snd-mtpav.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o sound/drivers/snd-mtpav.ko sound/drivers/snd-mtpav.o sound/drivers/snd-mtpav.mod.o ;  true

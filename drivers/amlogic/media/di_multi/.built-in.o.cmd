@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/di_multi/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/di_multi/built-in.o drivers/amlogic/media/di_multi/dim.o ; scripts/mod/modpost drivers/amlogic/media/di_multi/built-in.o

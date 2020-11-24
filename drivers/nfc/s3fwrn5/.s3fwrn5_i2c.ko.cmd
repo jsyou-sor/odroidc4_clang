@@ -1,0 +1,1 @@
+cmd_drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/nfc/s3fwrn5/s3fwrn5_i2c.ko drivers/nfc/s3fwrn5/s3fwrn5_i2c.o drivers/nfc/s3fwrn5/s3fwrn5_i2c.mod.o ;  true

@@ -233,8 +233,8 @@ struct mmc_host {
 #endif
 
     /* Adding to remove 'no member' error */
-    u8 first_init_flag;
-    int wifi_down_f;
+    //u8 first_init_flag;
+    //int wifi_down_f;
 
 	u32			ocr_avail;
 	u32			ocr_avail_sdio;	/* SDIO-specific OCR */

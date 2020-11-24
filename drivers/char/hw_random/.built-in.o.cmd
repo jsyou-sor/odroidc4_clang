@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/char/hw_random/built-in.o drivers/char/hw_random/rng-core.o drivers/char/hw_random/meson-rng.o drivers/char/hw_random/cavium-rng.o drivers/char/hw_random/cavium-rng-vf.o ; scripts/mod/modpost drivers/char/hw_random/built-in.o

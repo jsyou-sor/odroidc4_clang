@@ -1,0 +1,1 @@
+cmd_net/sched/em_text.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o net/sched/em_text.ko net/sched/em_text.o net/sched/em_text.mod.o ;  true

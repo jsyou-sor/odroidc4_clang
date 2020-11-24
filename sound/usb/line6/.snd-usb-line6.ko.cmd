@@ -1,0 +1,1 @@
+cmd_sound/usb/line6/snd-usb-line6.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o sound/usb/line6/snd-usb-line6.ko sound/usb/line6/snd-usb-line6.o sound/usb/line6/snd-usb-line6.mod.o ;  true

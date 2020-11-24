@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mt2063.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/tuners/mt2063.ko drivers/media/tuners/mt2063.o drivers/media/tuners/mt2063.mod.o ;  true

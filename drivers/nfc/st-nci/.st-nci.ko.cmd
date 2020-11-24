@@ -1,0 +1,1 @@
+cmd_drivers/nfc/st-nci/st-nci.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/nfc/st-nci/st-nci.ko drivers/nfc/st-nci/st-nci.o drivers/nfc/st-nci/st-nci.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/airspy/airspy.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/media/usb/airspy/airspy.ko drivers/media/usb/airspy/airspy.o drivers/media/usb/airspy/airspy.mod.o ;  true

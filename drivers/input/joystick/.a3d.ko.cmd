@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/a3d.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/joystick/a3d.ko drivers/input/joystick/a3d.o drivers/input/joystick/a3d.mod.o ;  true

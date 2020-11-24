@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/vin/tvin/tvin_common.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/vin/tvin/tvin_common.o drivers/amlogic/media/vin/tvin/tvin_format_table.o drivers/amlogic/media/vin/tvin/tvin_frontend.o drivers/amlogic/media/vin/tvin/tvin_global.o ; scripts/mod/modpost drivers/amlogic/media/vin/tvin/tvin_common.o

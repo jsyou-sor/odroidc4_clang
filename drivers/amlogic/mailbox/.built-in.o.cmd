@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/mailbox/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/mailbox/built-in.o drivers/amlogic/mailbox/meson_mhu.o drivers/amlogic/mailbox/scpi_protocol.o ; scripts/mod/modpost drivers/amlogic/mailbox/built-in.o

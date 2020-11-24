@@ -1,0 +1,1 @@
+cmd_drivers/nfc/pn544/pn544.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/nfc/pn544/pn544.ko drivers/nfc/pn544/pn544.o drivers/nfc/pn544/pn544.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media/video_processor/ppmgr/ppmgr.o := aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/media/video_processor/ppmgr/ppmgr.o drivers/amlogic/media/video_processor/ppmgr/ppmgr_drv.o drivers/amlogic/media/video_processor/ppmgr/ppmgr_vpp.o ; scripts/mod/modpost drivers/amlogic/media/video_processor/ppmgr/ppmgr.o

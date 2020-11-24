@@ -1,0 +1,2 @@
+kernel/drivers/amlogic/mailbox/meson_mhu.ko
+kernel/drivers/amlogic/mailbox/scpi_protocol.ko

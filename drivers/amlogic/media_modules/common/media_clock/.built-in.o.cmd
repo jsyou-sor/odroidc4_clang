@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/media_modules/common/media_clock/built-in.o :=  rm -f drivers/amlogic/media_modules/common/media_clock/built-in.o; aarch64-linux-gnu-ar rcsD drivers/amlogic/media_modules/common/media_clock/built-in.o

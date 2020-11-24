@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/sidewinder.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/input/joystick/sidewinder.ko drivers/input/joystick/sidewinder.o drivers/input/joystick/sidewinder.mod.o ;  true

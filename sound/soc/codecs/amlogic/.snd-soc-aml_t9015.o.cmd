@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-aml_t9015.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-aml_t9015.o sound/soc/codecs/amlogic/aml_codec_t9015.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-aml_t9015.o

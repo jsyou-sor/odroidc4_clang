@@ -1,0 +1,5 @@
+arch/arm64/boot/dts/amlogic/overlays/odroidc4/.pwm_a-pwmfan.dtbo.dts.tmp: \
+  arch/arm64/boot/dts/amlogic/overlays/odroidc4/pwm_a-pwmfan.dts \
+  arch/arm64/boot/dts/include/dt-bindings/thermal/thermal.h \
+  arch/arm64/boot/dts/include/dt-bindings/pwm/meson.h \
+  arch/arm64/boot/dts/include/dt-bindings/pwm/pwm.h

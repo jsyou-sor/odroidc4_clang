@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/cpu_info/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/cpu_info/built-in.o drivers/amlogic/cpu_info/cpu_info.o ; scripts/mod/modpost drivers/amlogic/cpu_info/built-in.o

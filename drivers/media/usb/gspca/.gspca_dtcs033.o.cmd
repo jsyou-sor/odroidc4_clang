@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_dtcs033.o := aarch64-linux-gnu-ld -EL    -r -o drivers/media/usb/gspca/gspca_dtcs033.o drivers/media/usb/gspca/dtcs033.o ; scripts/mod/modpost drivers/media/usb/gspca/gspca_dtcs033.o

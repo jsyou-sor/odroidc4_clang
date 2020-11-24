@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-belkin.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/hid-belkin.ko drivers/hid/hid-belkin.o drivers/hid/hid-belkin.mod.o ;  true

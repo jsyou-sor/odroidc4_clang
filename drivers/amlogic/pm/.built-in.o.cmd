@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/pm/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/pm/built-in.o drivers/amlogic/pm/gx_pm.o drivers/amlogic/pm/vad_power.o ; scripts/mod/modpost drivers/amlogic/pm/built-in.o

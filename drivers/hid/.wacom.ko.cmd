@@ -1,0 +1,1 @@
+cmd_drivers/hid/wacom.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/hid/wacom.ko drivers/hid/wacom.o drivers/hid/wacom.mod.o ;  true

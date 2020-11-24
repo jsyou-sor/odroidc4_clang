@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/clk/g12b/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/clk/g12b/built-in.o drivers/amlogic/clk/g12b/g12b.o ; scripts/mod/modpost drivers/amlogic/clk/g12b/built-in.o

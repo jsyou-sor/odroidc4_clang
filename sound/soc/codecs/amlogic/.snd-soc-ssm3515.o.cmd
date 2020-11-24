@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/amlogic/snd-soc-ssm3515.o := aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/amlogic/snd-soc-ssm3515.o sound/soc/codecs/amlogic/ssm3515.o ; scripts/mod/modpost sound/soc/codecs/amlogic/snd-soc-ssm3515.o

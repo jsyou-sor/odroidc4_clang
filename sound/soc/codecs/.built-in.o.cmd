@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/built-in.o sound/soc/codecs/snd-soc-pcm5102a.o sound/soc/codecs/snd-soc-pcm512x.o sound/soc/codecs/snd-soc-pcm512x-i2c.o sound/soc/codecs/snd-soc-spdif-rx.o sound/soc/codecs/snd-soc-spdif-tx.o sound/soc/codecs/amlogic/built-in.o ; scripts/mod/modpost sound/soc/codecs/built-in.o

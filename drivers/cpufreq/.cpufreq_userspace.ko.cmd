@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/cpufreq_userspace.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o drivers/cpufreq/cpufreq_userspace.ko drivers/cpufreq/cpufreq_userspace.o drivers/cpufreq/cpufreq_userspace.mod.o ;  true

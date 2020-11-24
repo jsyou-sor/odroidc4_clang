@@ -1,0 +1,1 @@
+cmd_drivers/amlogic/wifi/built-in.o :=  aarch64-linux-gnu-ld -EL    -r -o drivers/amlogic/wifi/built-in.o drivers/amlogic/wifi/wifi_dt.o drivers/amlogic/wifi/dhd_static_buf.o ; scripts/mod/modpost drivers/amlogic/wifi/built-in.o
